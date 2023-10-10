@@ -1,0 +1,62 @@
+@import url(../styles/header.css);
+@import url(../styles/intro.css);
+@import url(../styles/project.css);
+@import url(../styles/competencies.css);
+@import url(../styles/services.css);
+@import url(../styles/contacts.css);
+@import url(../styles/pop-up.css);
+@import url(../styles/footer.css);
+@import url(../styles/burger.css);
+
+html {
+
+    scroll-behavior: smooth;
+    /* min-width: 1400px; */
+}
+
+body {
+
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    background-color: #121212;
+}
+
+.body_fixed {
+
+    overflow: hidden;
+}
+
+p, div, a, h1, h2, h3 {
+
+    letter-spacing: -0.03em;
+}
+
+.container {
+
+    margin: 0 auto;
+    width: 1150px;
+}
+
+
+/* Планшет */
+
+@media (max-width: 1199px) {
+
+    .container {
+
+        width: 100%;
+        padding: 0 15px 0 15px;
+    }
+}
+
+/* Мобильное устройство */
+
+@media (max-width: 767px) {
+
+    .container {
+
+        padding: 0 10px 0 12px;
+    }
+}
+
+

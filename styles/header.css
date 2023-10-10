@@ -1,0 +1,78 @@
+header {
+
+    position: relative;
+    height: 765px;
+    background-image: url("../resources/Main-banner_desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;  
+}
+
+.header__logo {
+
+    position: absolute;
+    top: 36px;
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 35px;
+    line-height: 55.14px;
+}
+
+.nav__inner{
+
+    padding-top: 36px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: right;
+    text-shadow: #ffffff 1px 1px;
+}
+
+.nav__inner-link {
+
+    text-decoration: none;
+    color:#121212;
+    font-size: 18px;
+    line-height: 23.4px;
+}
+
+.nav__inner-link:hover {
+
+    color:#ECFC00;
+}
+
+/* Планшет */
+
+@media (max-width: 1199px) {
+
+    header {
+
+        background-image: url("../resources/Main-banner_tablet.png");
+    }
+    
+    .header__inner {
+    
+        top: 32px;
+    }
+    
+    .header__logo {
+    
+        font-size: 30px;
+    }
+}
+
+/* Мобильное устройство */
+ 
+@media (max-width: 767px) {
+
+    header {
+
+        background-image: url("../resources/Main-banner_mobile.png");
+        height: 715px;
+        width: 100%;
+    }
+    
+    .header__logo {
+    
+        display: none;
+    }
+}

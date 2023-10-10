@@ -1,0 +1,153 @@
+.projects {
+
+    margin: 150px 0px;
+}
+
+.project__title-main {
+
+    color: #ffffff;
+    font-size: 55px;
+    line-height: 71.5px;
+}
+
+.projects__list {
+
+    margin-top: 40px;
+}
+
+.project {
+
+    position: relative;
+}
+
+.project__title {
+
+    position: absolute;
+    top: 410px;
+    left: 50px;
+    font-size: 35px;
+    line-height: 45.5px;
+    color: #ffffff;
+}
+
+.project__desc {
+
+    position: absolute;
+    top: 461px;
+    left: 50px;
+    font-size: 30px;
+    line-height: 39px;
+    color: #ffffff;
+}
+
+.projects__btn {
+
+    display: block;
+    margin-top: 78px;
+    width: 582px;
+    padding: 30px 85px;
+    transition: all 500ms ease; 
+    cursor: pointer;
+    background-color: #ECFC00;
+    border: 4px solid #ECFC00;
+    text-decoration: none;
+    color: #121212;
+    text-align: center;
+}
+
+.projects__btn:hover {
+   
+    color: #ECFC00;
+    background-color: #121212;
+    border: 4px solid  #FFFF00;
+}
+
+/* Планшет */
+
+@media (max-width: 1199px) {
+
+    .project__image {
+        
+        width: 100%;
+    }
+    .project__title-main {
+
+        font-size: 45px;
+        line-height: 58.5px;
+    }
+    
+    .projects__list {
+    
+        margin-top: 53px;
+    }
+    
+    .project__title {
+    
+        top: 70%;
+        left: 40px;
+        font-size: 28px;
+        line-height: 36.4px;
+    }
+    
+    .project__desc {
+    
+        top: 80%;
+        left: 40px;
+        font-size: 24px;
+        line-height: 31.2px;
+    }
+    
+    .projects__btn {
+    
+        margin-top: 64px;
+        width: 460px;
+        padding: 47px 68px;
+    }
+
+ 
+}
+
+/* Мобильное устройство */
+
+@media (max-width: 767px) {
+
+    .projects {
+
+        margin: 100px 0px;
+    }
+    
+    .project__title-main {
+    
+        width: 268px;
+        font-size: 30px;
+        line-height: 39px;
+    }
+    
+    .projects__list {
+    
+        margin-top: 34px;
+    }
+    
+    .project__title {
+
+        top: 80%;
+        left: 35px;
+        font-size: 28px;
+        line-height: 36.4px;
+    }
+    
+    .project__desc {
+
+        top: 87%;
+        left: 35px;
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+    
+    .projects__btn {
+    
+        margin-top: 60px;
+        width: 100%;
+        padding: 29px 51px;
+    }
+}

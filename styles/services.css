@@ -1,0 +1,142 @@
+.services {
+
+    margin: 150px 0px;
+}
+
+.services__title-main {
+
+    width: 403px;
+    font-size: 35px;
+    line-height: 45.5px;
+    color: #ffffff;
+}
+
+.services__list {
+
+    margin-top: 80px;
+}
+
+.service__title {
+
+    font-size: 55px;
+    line-height: 60.5px;
+    color: #ECFC00;
+    width: 40%;
+}
+
+.service__desc {
+
+    font-size: 22px;
+    line-height: 28.6px;
+    color: #ffffff;
+    width: 40%;
+}
+
+.service__text {
+
+    display: flex;
+    gap: 70px;
+    padding: 50px;
+    background-image: url("../resources/Black_back.png");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+/* Планшет */
+
+@media (max-width: 1199px) {
+
+
+    .services__title-main {
+    
+        width: 326px;
+        font-size: 28.3px;
+        line-height: 36.8px;
+    }
+    
+    .services__list {
+    
+        margin-top: 60px;
+    }
+    
+    .service__title {
+    
+        font-size: 45px;
+        line-height: 49.5px;
+        width: 50%;
+    }
+    
+    .service__desc {
+    
+        font-size: 18px;
+        line-height: 23.4px;
+        width: 30%;
+    }
+    
+    .service__text {
+    
+        gap: 57px;
+        padding: 32px;
+    }
+
+    .service__image {
+
+        width: 100%;
+    }
+}
+
+/* Мобильное устройство */
+
+@media (max-width: 767px) {
+
+    .services {
+
+        margin: 100px 0px;
+    }
+    
+    .services__title-main {
+    
+        width: 326px;
+        font-size: 28.3px;
+        line-height: 36.8px;
+    }
+    
+    .services__list {
+    
+        margin-top: 60px;
+    }
+    
+    .service__title {
+    
+        font-size: 35px;
+        line-height: 38.5px;
+        width: 70%;
+    }
+    
+    .service__desc {
+    
+        font-size: 18px;
+        line-height: 23.4px;
+        width: 70%;
+    }
+    
+    .service__text {
+    
+        flex-direction: column;
+        gap: 15px;
+        padding: 2px;
+    }
+
+    .service {
+
+        margin-top: 70px;
+    }
+
+    .service:first-child {
+
+        margin-top: 0px;
+    }
+}
+
