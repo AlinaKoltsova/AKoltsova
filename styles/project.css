@@ -103,6 +103,7 @@
         margin-top: 64px;
         width: 460px;
         padding: 47px 68px;
+        font-size: 25px;
     }
 
  
@@ -150,5 +151,6 @@
         margin-top: 60px;
         width: 100%;
         padding: 29px 51px;
+        font-size: 20px;
     }
 }
