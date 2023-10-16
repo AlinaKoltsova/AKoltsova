@@ -102,8 +102,7 @@
     }
     
     .contacts__btn {
-    
-        margin-bottom:86px;
+
         width: 80%;
         height: 47px;
         color: #121212;
@@ -127,12 +126,6 @@
         width: 310px;
     }
     
-    .contacts__info {
-    
-        font-size: 15px;
-        line-height: 19.5px;
-    }
-    
     .contacts__img {
     
         display: none;
@@ -147,8 +140,12 @@
     
     .contacts__btn {
     
-        margin-bottom: 52px;
-        width: 80%;
         height: 43px;
+        width: 98%;
+    }
+
+    .contacts__info {
+
+        width: 90%;
     }
 }
