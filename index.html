@@ -8,7 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
-    <title>Самостоятельный проект</title>
+
+    <title>Koltsova</title>
+
+    <link rel="icon" href="./resources/favicon.png" type="image/x-icon">
+
 </head>
 
 <body>
@@ -17,7 +21,9 @@
 
         <div class="container">
 
-                <a class="header__logo" href="#"> KOLTSOVA </a>
+            <div class="header__wrapper">
+
+                <a class="header__logo" target="_blank" href="https://alinakoltsova.github.io/AKoltsova/"> KOLTSOVA </a>
 
                 <nav>
                     <ul class="nav__inner">
@@ -33,241 +39,248 @@
                 <div class="js-burger-btn burger-btn"></div>
 
             </div>
+        </div>
 
     </header>
+    
+    <main>
 
-    <div class="js-burger burger">
+        <div class="js-burger burger">
 
-        <div class="burger-content">
-
-            <a class="burger__logo-link" target="_blank" href="#about-us__link">
-
-            <nav class="burger-nav">
-
-                <ul class="burger-nav">
-              
-                <li> <a class="burger-nav__link" href="#portfolio"> Portfolio </a></li>
-                <li> <a class="burger-nav__link" href="#competencies"> Competencies </a></li>
-                <li> <a class="burger-nav__link" href="#services"> Services </a></li>
-                <li> <a class="burger-nav__link" href="#blink2"> Contacts </a></li>
-
-            </nav>
-
-            <p class="burger-nav__desc"> contact me: </p>
-
-            <div class="js-burger__content burger-contact">
-
-                <a class="burger-contact__phone" href="tel:+79358954535" > +7 935 895-45-35 </a>
-                <a class="burger-contact__email" target="_blank" href="https://t.me/alinakoltcova"> @alinakoltcova </a>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <section class="intro">
-
-        <div class="container">
-
-            <h1 class="intro__title"> Hello, I'm Alina - <br> a front-end developer and website designer </h1>
-            <p class="intro__desc"> I develop branded websites for small and medium-sized businesses that enhance a company's prestige and help them stand out from competitors </p>
-        
-        </div>
-
-    </section>
-
-    <section class="projects">
- 
-        <div class="container">
-        
-            <h2 class="project__title-main" id="portfolio"> The latest projects </h2>
-
-            <ul class="projects__list">
-
-                <li class="project">
-
-                    <picture>
-                            <source media = "(max-width: 767px)" srcset="resources/Metrica_mobile.png">
-                            <source media = "(max-width: 1199px)" srcset="resources/Metrica_tablet.png">
-                            <img class="project__image" src="./resources/Metrica_main.png" alt = "студия метрика">
-                        </picture>
-
-                    <a href="https://alinakoltsova.github.io/Module2_2/" target="_blank"> <h3 class="project__title"> Metrica </h3>
-                    <p class="project__desc"> Design, Web-layout, Setup </p> </a>
-
-                </li>
-
-                <li class="project">
-
-                    <picture>
-                    <source media = "(max-width: 767px)" srcset="resources/Nothing_mobile.png">
-                    <source media = "(max-width: 1199px)" srcset="resources/Nothing_tablet.png">
-                    <img class="project__image" src="./resources/Nothing_main.png" alt = "разработка бежевого интерфейса">
-                    </picture>
-
-                    <a href="https://github.com/AlinaKoltsova" target="_blank"> <h3 class="project__title"> Nothing </h3>
-                    <p class="project__desc"> Web-layout, Setup </p> </a>
-                </li>
-
-                <li class="project">
-                    <picture>
-                    <source media = "(max-width: 767px)" srcset="resources/TOPTRIP_mobile.png">
-                    <source media = "(max-width: 1199px)" srcset="resources/TOPTRIP_tablet.png">
-                    <img class="project__image" src="./resources/TOPTRIP_main.png" alt = "разработка оранжевого интерфейса">
-                    </picture>
-
-                    <a href="https://github.com/AlinaKoltsova" target="_blank"> <h3 class="project__title"> TOPTRIP </h3>
-                    <p class="project__desc"> Web-layout </p> </a>
-                   
-                </li>    
-
-            </ul>
-
-            <a href="#portfolio" class="projects__btn" target="_blank"> Explore all projects </a>
-
-        </div>
-
-    </section>
-
-    <section class="competencies">
-
-        <div class="container">
-
-            <h2 class="competencies_title-main" id="competencies"> My skills </h2>
-
-            <ul class="competencies__list">
-
-                <li class="competence">
-                    <img class="competence__image" src="./resources/html_icon.png" alt="значок html">
-                    <h3 class="competence__title"> HTML и CSS </h3>
-                    <p class="competence__desc">Front-end development basics: Proficient in creating and structuring HTML documents and applying styles to them using CSS. These skills are fundamental for every front-end developer </p>  
-                </li>
-
-
-                <li class="competence">
-                    <img class="competence__image" src="./resources/js_icon.png" alt="значок js">
-                    <h3 class="competence__title"> JavaScript </h3>
-                    <p class="competence__desc"> Front-end development proficiency includes a strong foundation in JavaScript, a programming language used to create dynamic and interactive user interfaces. A proficient front-end developer should be familiar with the basics of JavaScript, including working with the DOM tree, handling asynchronous requests, and client-side data manipulation </p> 
-                </li>
-
-
-                <li class="competence">
-                    <img class="competence__image" src="./resources/library_icon.png" alt="библиотеки для фронтенда">
-                    <h3 class="competence__title"> Working with libraries and frameworks </h3>
-                    <p class="competence__desc"> Front-end developers should be familiar with various libraries and frameworks, such as React, Angular, Vue, and others. The ability to leverage existing solutions, adapt them to project requirements, and extend their functionality is a crucial skill </p> 
-                </li>
-
-                <li class="competence">
-                    <img class="competence__image" src="./resources/adapt_icon.png" alt="библиотеки для фронтенда">
-                    <h3 class="competence__title"> Mobile development and responsive design</h3>
-                    <p class="competence__desc"> Front-end developers should be familiar with various libraries and frameworks such as React, Angular, Vue, and others. The ability to use ready-made solutions, adapt them to project requirements, and enhance their functionality is a highly important skill </p>
-                </li>
-
-            </ul>
-
-        </div>
-
-    </section>
-
-    <section class="services">
-      
-                  <div class="container">
-      
-                      <h2 id="services" class="services__title-main"> Help to implement a wide range of tasks </h2>  
-      
-                      <ul class="services__list">
-      
-                          <li class="service">
-                              <img class="service__image" src="./resources/Dev_sites.png" alt="Разработка сайтов">
-                              <div class="service__text">
-                              <h3 class="service__title"> End-to-End Website Development </h3>
-                              <p class="service__desc"> Comprehensive Website Design and Development for User-Friendly and Business-Oriented Solutions. </p>
-                              </div>
-                          </li>
-      
-                          <li class="service">
-                              <img class="service__image" src="./resources/Layout_sites.png" alt="Верстка сайтов">
-                              <div class="service__text">
-                              <h3 class="service__title"> Website Markup </h3>
-                              <p class="service__desc"> This is the process of creating HTML documents and applying CSS styles to them. A front-end developer can help create an attractive and user-friendly interface for your website </p>
-                          
-                       </li>
-      
-                          <li class="service">
-                              <img class="service__image" src="./resources/Mobile_ver.png" alt="Мобильная верстка">
-                              <div class="service__text">
-                              <h3 class="service__title"> Mobile UI Design </h3>
-                              <p class="service__desc"> This is the process of creating interactive elements on a webpage using JavaScript. A front-end developer can help create a dynamic and user-friendly user interface for your website or application </p>
-                          </div></li>
-      
-                      </ul>
-      
-                  </div>
-      
-              </section>
-
-    <section class="contacts">
-        
-        <div class="container">
-
-            <div class="contacts__inner">
-
-                <div class="contacts__inner-text">
-
-                    <h2 id="blink2" class="contacts__title-main"> To contact me, please fill out the simple form </h2>
-                    <input class="contacts__info" type="text" name="name" placeholder="NAME">
-                    <input class="contacts__info" type="email" name="email" placeholder="EMAIL">
-                    <button class="js-btn contacts__btn"> → </button>
+            <div class="burger-content">
                 
+                <nav class="burger-nav">
+
+                    <ul class="burger-nav">
+                
+                    <li> <a class="burger-nav__link" href="#portfolio"> Portfolio </a></li>
+                    <li> <a class="burger-nav__link" href="#competencies"> Competencies </a></li>
+                    <li> <a class="burger-nav__link" href="#services"> Services </a></li>
+                    <li> <a class="burger-nav__link" href="#blink2"> Contacts </a></li>
+
+                </nav>
+
+                <p class="burger-nav__desc"> contact me: </p>
+
+                <div class="js-burger__content burger-contact">
+
+                    <a class="burger-contact__phone" href="tel:+79358954535" > +7 935 895-45-35 </a>
+                    <a class="burger-contact__email" target="_blank" href="https://t.me/alinakoltcova"> @alinakoltcova </a>
+
                 </div>
 
-                <img class="contacts__img" src="resources/contacts_block.jpg" alt="блок с контактами"> 
-
-            </div>
-            
-            <div class="js-popup contacts__popup">
-
-                <div class="js-popup__content contacts__popup-content">
-
-                    <p class="popup__desc"> You're welcome! <br> We will contact you within 30 minutes </p>
-
-                    <div class="js-popup__close-btn contacts__popup_close"></div>
-
-                </div>
-        
             </div>
 
         </div>
 
-    </section>
-
-    <footer>
+        <section class="intro">
 
             <div class="container">
 
-                    <div class="footer__inner">
+                <h1 class="intro__title"> Hello, I'm Alina - <br> a front-end developer and website designer </h1>
+                <p class="intro__desc"> I develop branded websites for small and medium-sized businesses that enhance a company's prestige and help them stand out from competitors </p>
+            
+            </div>
 
-                        <h4 class="footer__title footer__nav-link"> Frontend Developer Alina Koltsova's Portfolio </h4>
+        </section>
 
-                        <ul class="footer__nav">
+        <section class="projects">
+    
+            <div class="container">
+            
+                <h2 class="project__title-main" id="portfolio"> The latest projects </h2>
 
-                            <li> <a class="footer__nav-link" href="mailto:akoltsova7@gmail.com "> Mail </a> </li>
-                            <li> <a class="footer__nav-link" href="https://t.me/alinakoltcova"> Telegram </a> </li>
-                            <li> <a class="footer__nav-link" href="https://instagram.com/_koltsova_a?igshid=MmIzYWVlNDQ5Yg=="> Instagram </a> </li>
+                <ul class="projects__list">
 
-                        </ul>
+                    <li class="project">
 
-                    </div>
+                        <a href="https://alinakoltsova.github.io/Module2_2/" target="_blank">
 
-                    <div class="footer__inner">
+                            <picture>
+                                    <source media = "(max-width: 767px)" srcset="resources/metrica_mobile.png">
+                                    <source media = "(max-width: 1199px)" srcset="resources/metrica_tablet.png">
+                                    <img class="project__image" src="../resources/Metrica_main.png" alt = "студия метрика">
+                            </picture>
 
-                        <p class="footer__desc"> All rights reserved. 2023 </p>
-                        <p class="footer__desc"> Data Processing Policy </p>
+                            <h3 class="project__title"> Metrica </h3>
+                            <p class="project__desc"> Design, Web-layout, Setup </p> 
+                        </a>
 
-                    </div>
+                    </li>
+
+                    <li class="project">
+
+                        <picture>
+                            <source media = "(max-width: 767px)" srcset="resources/nothing_mobile.png">
+                            <source media = "(max-width: 1199px)" srcset="resources/nothing_tablet.png">
+                            <img class="project__image" src="../resources/Nothing_main.png" alt = "разработка бежевого интерфейса">
+                        </picture>
+
+                        <h3 class="project__title"> Nothing </h3>
+                        <p class="project__desc"> Web-layout, Setup </p>
+
+                    </li>
+
+                    <li class="project">
+
+                        <picture>
+                            <source media = "(max-width: 767px)" srcset="resources/TOPTRIP_mobile.png">
+                            <source media = "(max-width: 1199px)" srcset="resources/TOPTRIP_tablet.png">
+                            <img class="project__image" src="../resources/TOPTRIP_main.png" alt = "разработка оранжевого интерфейса">
+                        </picture>
+
+                        <h3 class="project__title"> TOPTRIP </h3>
+                        <p class="project__desc"> Web-layout </p>
+                    
+                    </li>    
+
+                </ul>
+
+                <a href="#portfolio" class="projects__btn" target="_blank"> Explore all projects </a>
 
             </div>
+
+        </section>
+
+        <section class="competencies">
+
+            <div class="container">
+
+                <h2 class="competencies_title-main" id="competencies"> My skills </h2>
+
+                <ul class="competencies__list">
+
+                    <li class="competence">
+                        <img class="competence__image" src="./resources/html_icon.png" alt="значок html">
+                        <h3 class="competence__title"> HTML и CSS </h3>
+                        <p class="competence__desc">Front-end development basics: Proficient in creating and structuring HTML documents and applying styles to them using CSS. These skills are fundamental for every front-end developer </p>  
+                    </li>
+
+
+                    <li class="competence">
+                        <img class="competence__image" src="./resources/js_icon.png" alt="значок js">
+                        <h3 class="competence__title"> JavaScript </h3>
+                        <p class="competence__desc"> Front-end development proficiency includes a strong foundation in JavaScript, a programming language used to create dynamic and interactive user interfaces. A proficient front-end developer should be familiar with the basics of JavaScript, including working with the DOM tree, handling asynchronous requests, and client-side data manipulation </p> 
+                    </li>
+
+
+                    <li class="competence">
+                        <img class="competence__image" src="./resources/library_icon.png" alt="библиотеки для фронтенда">
+                        <h3 class="competence__title"> Working with libraries and frameworks </h3>
+                        <p class="competence__desc"> Front-end developers should be familiar with various libraries and frameworks, such as React, Angular, Vue, and others. The ability to leverage existing solutions, adapt them to project requirements, and extend their functionality is a crucial skill </p> 
+                    </li>
+
+                    <li class="competence">
+                        <img class="competence__image" src="./resources/adapt_icon.png" alt="библиотеки для фронтенда">
+                        <h3 class="competence__title"> Mobile development and responsive design</h3>
+                        <p class="competence__desc"> Front-end developers should be familiar with various libraries and frameworks such as React, Angular, Vue, and others. The ability to use ready-made solutions, adapt them to project requirements, and enhance their functionality is a highly important skill </p>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+        <section class="services">
+        
+                    <div class="container">
+        
+                        <h2 id="services" class="services__title-main"> Help to implement a wide range of tasks </h2>  
+        
+                        <ul class="services__list">
+        
+                            <li class="service">
+                                <img class="service__image" src="./resources/Dev_sites.png" alt="Разработка сайтов">
+                                <div class="service__text">
+                                <h3 class="service__title"> End-to-End Website Development </h3>
+                                <p class="service__desc"> Comprehensive Website Design and Development for User-Friendly and Business-Oriented Solutions. </p>
+                                </div>
+                            </li>
+        
+                            <li class="service">
+                                <img class="service__image" src="./resources/Layout_sites.png" alt="Верстка сайтов">
+                                <div class="service__text">
+                                <h3 class="service__title"> Website Markup </h3>
+                                <p class="service__desc"> This is the process of creating HTML documents and applying CSS styles to them. A front-end developer can help create an attractive and user-friendly interface for your website </p>
+                            
+                        </li>
+        
+                            <li class="service">
+                                <img class="service__image" src="./resources/Mobile_ver.png" alt="Мобильная верстка">
+                                <div class="service__text">
+                                <h3 class="service__title"> Mobile UI Design </h3>
+                                <p class="service__desc"> This is the process of creating interactive elements on a webpage using JavaScript. A front-end developer can help create a dynamic and user-friendly user interface for your website or application </p>
+                            </div></li>
+        
+                        </ul>
+        
+                    </div>
+        
+                </section>
+
+        <section class="contacts">
+            
+            <div class="container">
+
+                <div class="contacts__inner">
+
+                    <div class="contacts__inner-text">
+
+                        <h2 id="blink2" class="contacts__title-main"> To contact me, please fill out the simple form </h2>
+                        <input class="contacts__info" type="text" name="name" placeholder="NAME">
+                        <input class="contacts__info" type="email" name="email" placeholder="EMAIL">
+                        <button class="js-btn contacts__btn"> → </button>
+                    
+                    </div>
+
+                    <img class="contacts__img" src="resources/contacts_block.jpg" alt="блок с контактами"> 
+
+                </div>
+                
+                <div class="js-popup contacts__popup">
+
+                    <div class="js-popup__content contacts__popup-content">
+
+                        <p class="popup__desc"> You're welcome! <br> We will contact you within 30 minutes </p>
+
+                        <div class="js-popup__close-btn contacts__popup_close"></div>
+
+                    </div>
+            
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="container">
+
+                <div class="footer__inner">
+
+                    <h4 class="footer__title footer__nav-link"> Frontend Developer Alina Koltsova's Portfolio </h4>
+
+                    <ul class="footer__nav">
+
+                        <li> <a class="footer__nav-link" target="_blank" href="mailto:akoltsova7@gmail.com "> Mail </a> </li>
+                        <li> <a class="footer__nav-link" target="_blank" href="https://t.me/alinakoltcova"> Telegram </a> </li>
+                        <li> <a class="footer__nav-link" target="_blank" href="https://instagram.com/_koltsova_a?igshid=MmIzYWVlNDQ5Yg=="> Instagram </a> </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer__inner">
+
+                    <p class="footer__desc"> All rights reserved. 2023 </p>
+                    <p class="footer__desc"> Data Processing Policy </p>
+
+                </div>
+
+        </div>
 
     </footer>
 
