@@ -26,6 +26,14 @@ footer {
     line-height: 30.05px;
 }
 
+.footer__title {
+
+    text-decoration: none;
+    color:#121212;
+    font-size: 22px;
+    line-height: 30.05px;
+}
+
 .footer__desc {
 
     padding-top: 66px;
@@ -62,6 +70,12 @@ footer {
         line-height: 21.86px;
     }
 
+    .footer__title {
+
+        font-size: 16px;
+        line-height: 21.86px;
+    }
+
     .footer__desc {
     
         padding-top: 43px;
@@ -94,6 +108,12 @@ footer {
     
     .footer__nav-link {
     
+        font-size: 15px;
+        line-height: 20.49px;
+    }
+
+    .footer__title {
+
         font-size: 15px;
         line-height: 20.49px;
     }
