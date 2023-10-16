@@ -1,14 +1,10 @@
 .contacts {
 
-    margin-top: 100px;
-    background-image: url(../resources/Black_back.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin: 150px 0px;
 }
 
 .contacts__title-main {
 
-    margin-top: 50px;
     font-size: 60px;
     line-height: 60px;
     width: 553px;
@@ -18,7 +14,6 @@
 
     font-size: 22px;
     line-height: 28.6px;
-    background-color: #3B3D3B;
     border-radius: 20px;
     padding: 10px;
 }
@@ -26,14 +21,12 @@
 .contacts__inner {
 
     display: flex;
-    flex-wrap: wrap;
     justify-content:space-around;
     padding: 20px;
 }
 
 .contacts__img {
 
-    margin-top: 50px;
     width: 450px;
     height: 450px;
     border-radius: 1000px;
@@ -48,14 +41,15 @@
 
 .contacts__btn {
 
-    margin-bottom: 101px;
     width: 450px;
     height: 70px;
-    color: #121212;
-    font-size: 50px;
     background-color: #ECFC00;
     border-radius: 25px;
     cursor: pointer;
+
+    color: #121212;
+    font-size: 50px;
+
 }
 
 .contacts__btn:hover {
@@ -82,11 +76,6 @@
 
 @media (max-width: 1199px) {
 
-    .contacts {
-
-        margin-top: 110px;
-    }
-
     .contacts__title-main {
     
         font-size: 40px;
@@ -103,9 +92,8 @@
 
     .contacts__img {
 
-        margin-top: 90px;
-        width: 300px;
-        height: 300px;
+        width: 50%;
+        height: 50%;
     }
     
     .contacts__inner-text {
@@ -129,12 +117,11 @@
 
     .contacts {
 
-        margin-top: 100px;
+        margin: 100px 0px;
     }
     
     .contacts__title-main {
     
-        margin-top: 30px;
         font-size: 35px;
         line-height: 37.33px;
         width: 310px;

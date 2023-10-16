@@ -35,6 +35,12 @@ footer {
     opacity: 0.5;
 }
 
+.footer__nav-link:hover{
+
+    color: #ECFC00;
+}
+
+
 /* Планшет */
 
 @media (max-width: 1199px) {
