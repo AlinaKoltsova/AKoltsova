@@ -5,7 +5,6 @@
 
 .project__title-main {
 
-    color: #ffffff;
     font-size: 55px;
     line-height: 71.5px;
 }
@@ -53,6 +52,7 @@
     text-decoration: none;
     color: #121212;
     text-align: center;
+    border-radius: 25px;
 }
 
 .projects__btn:hover {
@@ -118,7 +118,7 @@
     
     .project__title-main {
     
-        width: 268px;
+        width: 100%;
         font-size: 30px;
         line-height: 39px;
     }
@@ -138,7 +138,7 @@
     
     .project__desc {
 
-        top: 87%;
+        top: 90%;
         left: 35px;
         font-size: 16px;
         line-height: 20.8px;

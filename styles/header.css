@@ -1,6 +1,5 @@
 header {
 
-    position: relative;
     height: 765px;
     background-image: url("../resources/Main-banner_desktop.png");
     background-repeat: no-repeat;
@@ -8,19 +7,23 @@ header {
     background-position: 50%;  
 }
 
+.header__wrapper {
+
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .header__logo {
 
-    position: absolute;
-    top: 36px;
     text-decoration: none;
-    color:#ffffff;
     font-size: 35px;
     line-height: 55.14px;
+    color: #ffffff;
 }
 
 .nav__inner{
 
-    padding-top: 36px;
     display: flex;
     column-gap: 20px;
     justify-content: right;
@@ -37,8 +40,8 @@ header {
 
 .nav__inner-link:hover {
 
-    color:#ECFC00;
-}
+    color: #ECFC00;
+}   
 
 /* Планшет */
 

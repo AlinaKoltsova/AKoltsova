@@ -5,10 +5,9 @@
 
 .services__title-main {
 
-    width: 403px;
+    width: 100%;
     font-size: 35px;
     line-height: 45.5px;
-    color: #ffffff;
 }
 
 .services__list {
@@ -28,7 +27,6 @@
 
     font-size: 22px;
     line-height: 28.6px;
-    color: #ffffff;
     width: 40%;
 }
 
@@ -50,8 +48,7 @@
 
 
     .services__title-main {
-    
-        width: 326px;
+
         font-size: 28.3px;
         line-height: 36.8px;
     }
@@ -98,7 +95,6 @@
     
     .services__title-main {
     
-        width: 326px;
         font-size: 28.3px;
         line-height: 36.8px;
     }

@@ -3,12 +3,11 @@
     position: absolute;
     top: 466px;
     display: block;
-    text-align: left;
     width: 919px;
-    height: 205px;
     color: #ECFC00;
     font-size: 80px;
     line-height: 70px;
+    text-align: left;
 }   
 
 .intro__desc {
@@ -18,7 +17,6 @@
     display: block;
     width: 430px;
     line-height: 26px;
-    color: #ffffff;
     font-size: 20px;
 }   
 
@@ -29,8 +27,8 @@
     .intro__title {
 
         top: 500px;
-        width: 727px;
         font-size: 60px;
+        width: 727px;
     }   
     
     .intro__desc {
@@ -48,11 +46,9 @@
 
         top: 451px;
         width: 353px;
-        font-size: 40px;
+        font-size: 35px;
         line-height: 47px;
         text-shadow:  #121212 2px 5px;
-        /* color: #ffffff; */
-        
     }   
     
     .intro__desc {

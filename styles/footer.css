@@ -26,11 +26,6 @@ footer {
     line-height: 30.05px;
 }
 
-.footer__nav-link:hover {
-
-    color:#ECFC00;
-}
-
 .footer__desc {
 
     padding-top: 66px;
@@ -76,7 +71,6 @@ footer {
     footer {
 
         border-radius: 18.66px;
-        background-color: #ffffff;
         padding: 47px 0px 34px;
     }
      
