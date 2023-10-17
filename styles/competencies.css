@@ -33,7 +33,7 @@
     color: #ECFC00;
 }
 
-.competence__desc {
+.competence__description {
 
     font-size: 22px;
     line-height: 28.6px;
@@ -67,7 +67,7 @@
         line-height: 36.4px;
     }
     
-    .competence__desc {
+    .competence__description {
     
         font-size: 18px;
         line-height: 23.4px;
@@ -105,7 +105,7 @@
         line-height: 36.4px;
     }
     
-    .competence__desc {
+    .competence__description {
 
         font-size: 18px;
         line-height: 23.4px;

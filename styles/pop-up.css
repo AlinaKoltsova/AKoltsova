@@ -45,7 +45,7 @@
     cursor: pointer;
 }
 
-.popup__desc {
+.popup__description {
 
     color: #121212;
     padding-top: 4px;
@@ -85,7 +85,7 @@
         right: 29px;
     }
 
-    .popup__desc {
+    .popup__description {
     
         padding-top: 11px;
         padding-bottom: 30px;

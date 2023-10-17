@@ -34,7 +34,7 @@ footer {
     line-height: 30.05px;
 }
 
-.footer__desc {
+.footer__description {
 
     padding-top: 66px;
     font-size: 20px;
@@ -76,7 +76,7 @@ footer {
         line-height: 21.86px;
     }
 
-    .footer__desc {
+    .footer__description {
     
         padding-top: 43px;
         font-size: 14px;
@@ -118,7 +118,7 @@ footer {
         line-height: 20.49px;
     }
 
-    .footer__desc {
+    .footer__description {
 
         padding-top: 0px;
         font-size: 13px;

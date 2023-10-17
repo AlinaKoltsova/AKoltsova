@@ -10,7 +10,7 @@
     text-align: left;
 }   
 
-.intro__desc {
+.intro__description {
 
     position: absolute;
     top: 334px;
@@ -31,7 +31,7 @@
         width: 727px;
     }   
     
-    .intro__desc {
+    .intro__description {
     
         top: 368px;
         width: 430px;
@@ -51,7 +51,7 @@
         text-shadow:  #121212 2px 5px;
     }   
     
-    .intro__desc {
+    .intro__description {
     
         top: 350px;
         width: 310px;

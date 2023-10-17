@@ -29,7 +29,7 @@
     color: #ffffff;
 }
 
-.project__desc {
+.project__description {
 
     position: absolute;
     top: 461px;
@@ -90,7 +90,7 @@
         line-height: 36.4px;
     }
     
-    .project__desc {
+    .project__description {
     
         top: 80%;
         left: 40px;
@@ -103,7 +103,6 @@
         margin-top: 64px;
         width: 460px;
         padding: 47px 68px;
-        font-size: 25px;
     }
 
  
@@ -138,7 +137,7 @@
         line-height: 36.4px;
     }
     
-    .project__desc {
+    .project__description {
 
         top: 90%;
         left: 35px;
@@ -151,6 +150,5 @@
         margin-top: 60px;
         width: 100%;
         padding: 29px 51px;
-        font-size: 20px;
     }
 }

@@ -26,17 +26,21 @@ header {
 
     margin-top: 15px;
     display: flex;
-    column-gap: 20px;
+    column-gap: 15px;
     justify-content: right;
-    text-shadow: #ffffff 1px 1px;
 }
 
 .nav__inner-link {
 
     text-decoration: none;
-    color:#121212;
+    padding: 3px;
+    color: #ffffff;
     font-size: 18px;
     line-height: 23.4px;
+    background-color: #121212;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 12px;
 }
 
 .nav__inner-link:hover {
