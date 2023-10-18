@@ -1,21 +1,41 @@
 footer {
 
-    border-radius: 40px;
+    border-radius: 20px;
     background-color: #ffffff;
     padding: 76px 0px 30px;
+}
+
+.footer__inner {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.footer__wrapper {
+
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer__nav {
 
     display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
+    gap: 20px;
 } 
 
-.footer__inner {
+.footer__name {
 
     display: flex;
     justify-content: space-between;
+} 
+
+.footer__description {
+
+    font-size: 20px;
+    line-height: 27.32px;
+    color: #121212;
+    opacity: 0.5;
 }
 
 .footer__nav-link {
@@ -34,24 +54,15 @@ footer {
     line-height: 30.05px;
 }
 
-.footer__description {
-
-    padding-top: 66px;
-    font-size: 20px;
-    line-height: 27.32px;
-    color: #121212;
-    opacity: 0.5;
-}
-
 .footer__nav-link:hover{
 
     color: #ECFC00;
 }
 
-
 /* Планшет */
 
 @media (max-width: 1199px) {
+    
 
     footer {
 
@@ -78,7 +89,6 @@ footer {
 
     .footer__description {
     
-        padding-top: 43px;
         font-size: 14px;
         line-height: 19.12px;
     }
@@ -93,17 +103,34 @@ footer {
         border-radius: 18.66px;
         padding: 47px 0px 34px;
     }
-     
+    
     .footer__inner {
     
-        padding-top: 40px;
+        display: flex;
+    }
+    
+    .footer__wrapper {
+
         flex-direction: column;
         row-gap: 20px;
     }
-
-    .footer__inner:first-child{
-
-        padding-top: 0px;
+    
+    .footer__nav {
+    
+        display: flex;
+        gap: 13px;
+    } 
+    
+    .footer__name {
+    
+        flex-direction: column;
+        row-gap: 20px;
+    } 
+    
+    .footer__description {
+    
+        font-size: 13px;
+        line-height: 17.76px;
     }
     
     .footer__nav-link {
@@ -111,17 +138,10 @@ footer {
         font-size: 15px;
         line-height: 20.49px;
     }
-
+    
     .footer__title {
 
         font-size: 15px;
         line-height: 20.49px;
-    }
-
-    .footer__description {
-
-        padding-top: 0px;
-        font-size: 13px;
-        line-height: 17.76px;
     }
 }

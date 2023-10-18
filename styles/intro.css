@@ -2,7 +2,6 @@
 
     position: absolute;
     top: 466px;
-    display: block;
     width: 919px;
     color: #ECFC00;
     font-size: 80px;
@@ -45,16 +44,17 @@
     .intro__title {
 
         top: 451px;
-        width: 353px;
+        width: 90%;
         font-size: 35px;
         line-height: 47px;
         text-shadow:  #121212 2px 5px;
+        
     }   
     
     .intro__description {
     
         top: 350px;
-        width: 310px;
+        width: 90%;
         line-height: 19.5px;
         font-size: 15px;
         color: #121212;

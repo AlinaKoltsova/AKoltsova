@@ -3,7 +3,7 @@
     margin: 150px 0px;
 }
 
-.project__title-main {
+.projects__title {
 
     font-size: 55px;
     line-height: 71.5px;
@@ -71,7 +71,7 @@
         
         width: 100%;
     }
-    .project__title-main {
+    .projects__title {
 
         font-size: 45px;
         line-height: 58.5px;
@@ -103,6 +103,7 @@
         margin-top: 64px;
         width: 460px;
         padding: 47px 68px;
+        font-size: 25px;
     }
 
  
@@ -117,9 +118,9 @@
         margin: 100px 0px;
     }
     
-    .project__title-main {
+    .projects__title {
     
-        width: 100%;
+        /* width: 100%; */
         font-size: 30px;
         line-height: 39px;
     }
@@ -150,5 +151,6 @@
         margin-top: 60px;
         width: 100%;
         padding: 29px 51px;
+        font-size: 20px;
     }
 }

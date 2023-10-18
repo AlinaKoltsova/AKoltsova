@@ -3,7 +3,7 @@
     margin: 150px 0px;
 }
 
-.services__title-main {
+.services__title {
 
     width: 100%;
     font-size: 35px;
@@ -47,7 +47,7 @@
 @media (max-width: 1199px) {
 
 
-    .services__title-main {
+    .services__title {
 
         font-size: 28.3px;
         line-height: 36.8px;
@@ -93,7 +93,7 @@
         margin: 100px 0px;
     }
     
-    .services__title-main {
+    .services__title {
     
         font-size: 28.3px;
         line-height: 36.8px;
