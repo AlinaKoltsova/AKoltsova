@@ -56,6 +56,8 @@
                     <li> <a class="burger-nav__link" href="#services"> Services </a></li>
                     <li> <a class="burger-nav__link" href="#blink2"> Contacts </a></li>
 
+                    </ul>
+
                 </nav>
 
                 <p class="burger-nav__description"> contact me: </p>
@@ -89,7 +91,7 @@
     
             <div class="container">
             
-                <h2 class="project__title-main" id="portfolio"> The latest projects </h2>
+                <h2 class="projects__title" id="portfolio"> The latest projects </h2>
 
                 <ul class="projects__list">
 
@@ -147,7 +149,7 @@
 
             <div class="container">
 
-                <h2 class="competencies_title-main" id="competencies"> My skills </h2>
+                <h2 class="competencies_title" id="competencies"> My skills </h2>
 
                 <ul class="competencies__list">
 
@@ -187,7 +189,7 @@
         
                     <div class="container">
         
-                        <h2 id="services" class="services__title-main"> Help to implement a wide range of tasks </h2>  
+                        <h2 id="services" class="services__title"> Help to implement a wide range of tasks </h2>  
         
                         <ul class="services__list">
         
@@ -204,15 +206,16 @@
                                 <div class="service__text">
                                 <h3 class="service__title"> Website Markup </h3>
                                 <p class="service__description"> This is the process of creating HTML documents and applying CSS styles to them. A front-end developer can help create an attractive and user-friendly interface for your website </p>
-                            
-                        </li>
+                                </div>
+                            </li>
         
                             <li class="service">
                                 <img class="service__image" src="./resources/Mobile_ver.png" alt="Мобильная верстка">
                                 <div class="service__text">
                                 <h3 class="service__title"> Mobile UI Design </h3>
                                 <p class="service__description"> This is the process of creating interactive elements on a webpage using JavaScript. A front-end developer can help create a dynamic and user-friendly user interface for your website or application </p>
-                            </div></li>
+                                </div>
+                            </li>
         
                         </ul>
         
@@ -227,16 +230,16 @@
                 <div class="contacts__inner">
 
                     
-                    <!-- <form action="#"> -->
+                    <form action="#">
                         <div class="contacts__inner-text">
 
-                            <h2 id="blink2" class="contacts__title-main"> To contact me, please fill out the simple form </h2>
+                            <h2 id="blink2" class="contacts__title"> To contact me, please fill out the simple form </h2>
                             <input class="contacts__info" type="text" name="name" placeholder="NAME">
                             <input class="contacts__info" type="email" name="email" placeholder="EMAIL">
                             <button class="js-btn contacts__btn"> → </button>
 
                         </div>
-                    <!-- </form> -->
+                    </form>
 
                     <img class="contacts__img" src="resources/contacts_block.jpg" alt="блок с контактами"> 
 
@@ -263,27 +266,30 @@
 
         <div class="container">
 
-            <div class="footer__inner">
+                <div class="footer__inner">
 
-                <h4 class="footer__title"> Frontend Developer Alina Koltsova's Portfolio </h4>
+                    <div class="footer__wrapper">
 
-                    <ul class="footer__nav">
+                    <h4 class="footer__title"> Frontend Developer Alina Koltsova's Portfolio </h4>
 
-                        <li> <a class="footer__nav-link" target="_blank" href="mailto:akoltsova7@gmail.com "> Mail </a> </li>
-                        <li> <a class="footer__nav-link" target="_blank" href="https://t.me/alinakoltcova"> Telegram </a> </li>
-                        <li> <a class="footer__nav-link" target="_blank" href="https://instagram.com/_koltsova_a?igshid=MmIzYWVlNDQ5Yg=="> Instagram </a> </li>
+                        <ul class="footer__nav">
 
-                    </ul>
+                            <li> <a class="footer__nav-link" target="_blank" href="mailto:akoltsova7@gmail.com "> Mail </a> </li>
+                            <li> <a class="footer__nav-link" target="_blank" href="https://t.me/alinakoltcova"> Telegram </a> </li>
+                            <li> <a class="footer__nav-link" target="_blank" href="https://instagram.com/_koltsova_a?igshid=MmIzYWVlNDQ5Yg=="> Instagram </a> </li>
 
-            </div>
+                        </ul>
 
-            <div class="footer__inner">
+                    </div>
 
-                <p class="footer__description"> All rights reserved. 2023 </p>
-                <p class="footer__description"> Data Processing Policy </p>
+                    <div class="footer__name">
 
-            </div>
-
+                        <p class="footer__description"> All rights reserved. 2023 </p>
+                        <p class="footer__description"> Data Processing Policy </p>
+                        
+                    </div>
+            
+                </div>
         </div>
 
     </footer>
